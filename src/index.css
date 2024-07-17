@@ -1,3 +1,44 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+.container{
+    min-height: 50px;
+    max-height: 500px;
+    width: 40%;
+    display:flex;
+    margin: auto;
+    margin-top: 40px;
+    flex-direction: column;
+    position: relative;
+    color: white;
+}
+body{
+    background-color: black;
+}
+.input{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.tasks{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    overflow: scroll;
+}
+.button{
+    width: 20%;
+    border-radius: 10px;
+    
+}
+.task{
+    width: 100%;
+    display: flex;
+}
+.task>p{
+    width: 80%;
+}
+input{
+    width: 80%;
+    height: 40px;
+    border: 1px white solid;
+    border-radius: 10px;
+}
